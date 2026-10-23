@@ -57,7 +57,7 @@ offers:
         kind: manual
         criterion_id: cri_01
         reason: vendor-discretion
-        statement: The applicant is a startup building with Indent that applies to Indent for Startups and is approved by Indent.
+        statement: The applicant is a startup that applies to Indent for Startups and is approved by Indent.
     roles:
       terms_authority_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
       access_operator_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
