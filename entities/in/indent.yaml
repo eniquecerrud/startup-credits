@@ -10,8 +10,8 @@ entity:
       valid_from: 2026-10-23T11:12:00.000Z
   category: devtools-other
 profile:
-  summary: Indent is an AI coworker shared across a whole company; teams ask it in Slack or tag it on a pull request, and it diagnoses issues, fixes code, and opens tested pull requests.
-  description: Indent is one shared AI coworker for a whole company, used from Slack and pull requests to investigate issues, write code, and open tested pull requests.
+  summary: Indent is one shared coworker for a whole company; what one person teaches it, the whole company gets, and teams ask it in Slack or tag it on a pull request.
+  description: Indent is one shared coworker for a whole company that people ask in Slack or tag on a pull request.
   links:
     site: https://indent.com
 sources:
@@ -57,7 +57,7 @@ offers:
         kind: manual
         criterion_id: cri_01
         reason: vendor-discretion
-        statement: The applicant is a startup that applies to Indent for Startups and is approved by Indent.
+        statement: The startup's application to Indent for Startups is approved.
     roles:
       terms_authority_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
       access_operator_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
