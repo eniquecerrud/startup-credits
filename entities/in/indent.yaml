@@ -57,13 +57,14 @@ offers:
         kind: manual
         criterion_id: cri_01
         reason: vendor-discretion
-        statement: The applicant is a startup that applies to Indent for Startups; credits are loaded once Indent approves the application.
+        statement: The applicant is a startup building with Indent that applies to Indent for Startups and is approved by Indent.
     roles:
       terms_authority_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
       access_operator_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
     access:
       availability: public
+      instructions: Use Apply Now on the Indent for Startups page to submit the application form; credits are loaded into the account the day the startup is approved.
       method: form
-      url: https://indent.com/startups
+      url: https://docs.google.com/forms/d/e/1FAIpQLSf3p3ljNOKAk1hqsH7zCV3anZ3SKE9KwmaeSveh7r5uBoWoEw/viewform
     source_ids:
       - src_7c76bbf17e4b87dea8393dd5c0f360baa18aff14bdb87725dff22ce6ed337d61
