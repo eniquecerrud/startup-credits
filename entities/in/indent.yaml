@@ -1,0 +1,69 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m5m7btq385hemahdkyhzk7kp
+  slug: indent
+  slug_aliases: []
+  name: Indent
+  domains:
+    - value: indent.com
+      role: primary
+      valid_from: 2026-10-23T11:12:00.000Z
+  category: devtools-other
+profile:
+  summary: Indent is an AI coworker shared across a whole company; teams ask it in Slack or tag it on a pull request, and it diagnoses issues, fixes code, and opens tested pull requests.
+  description: Indent is one shared AI coworker for a whole company, used from Slack and pull requests to investigate issues, write code, and open tested pull requests.
+  links:
+    site: https://indent.com
+sources:
+  - source_id: src_784e1a814462ccea2f15ee0393e03024cb73ace9edefff8b2c4eb1a2b496407f
+    url: https://indent.com
+  - source_id: src_7c76bbf17e4b87dea8393dd5c0f360baa18aff14bdb87725dff22ce6ed337d61
+    url: https://indent.com/startups
+programs:
+  - program_id: prg_01m5m7btq9dr128ny96xjzggdg
+    program_slug: indent-for-startups
+    program_slug_aliases: []
+    title: Indent for Startups
+    summary: Indent for Startups gives approved startups free Indent credits, technical and GTM support from Indent's engineering team, and access to a community of founders.
+    source_ids:
+      - src_7c76bbf17e4b87dea8393dd5c0f360baa18aff14bdb87725dff22ce6ed337d61
+offers:
+  - offer_id: off_01m5m7btq9v03ynbzexafzsskr
+    program_id: prg_01m5m7btq9dr128ny96xjzggdg
+    offer_slug: indent-startups-10k-credits
+    offer_slug_aliases: []
+    title: $10K in Indent credits for startups
+    summary: Approved startups get $10K in Indent credits loaded into their account the day they are approved, plus direct technical and GTM support from Indent's engineering team and a founder community.
+    lifecycle:
+      status: active
+      effective_from: 2026-10-23T11:12:00.000Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_01
+          description: $10K in Indent credits, loaded into the startup's account the day it is approved, for PRs, bug fixes, refactors, migrations, or whatever else it needs to ship.
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 1000000
+            kind: exact
+        - benefit_id: ben_02
+          description: Direct access to Indent's engineering team for technical support and GTM amplification on launches and raises, plus a community of founders with online and in-person events.
+          kind: other
+    eligibility:
+      rule:
+        kind: manual
+        criterion_id: cri_01
+        reason: vendor-discretion
+        statement: The applicant is a startup that applies to Indent for Startups; credits are loaded once Indent approves the application.
+    roles:
+      terms_authority_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
+      access_operator_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
+    access:
+      availability: public
+      method: form
+      url: https://indent.com/startups
+    source_ids:
+      - src_7c76bbf17e4b87dea8393dd5c0f360baa18aff14bdb87725dff22ce6ed337d61
