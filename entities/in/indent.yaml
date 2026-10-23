@@ -56,8 +56,8 @@ offers:
       rule:
         kind: manual
         criterion_id: cri_01
-        reason: vendor-discretion
-        statement: Open to startups, which apply to get free credits, technical support, and join a growing community.
+        reason: not-machine-evaluable
+        statement: Available to startups that apply and are approved.
     roles:
       terms_authority_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
       access_operator_entity_id: ent_01m5m7btq385hemahdkyhzk7kp
