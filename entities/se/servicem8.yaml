@@ -33,7 +33,7 @@ offers:
     offer_slug: servicem8-new-business-50-percent-off
     offer_slug_aliases: []
     title: 50% off ServiceM8 for 12 months for new businesses
-    summary: New ServiceM8 subscribers whose business was registered less than 2 years ago get 50% off any plan for their first 12 months after emailing proof of registration to ServiceM8 support.
+    summary: New ServiceM8 subscribers whose business was registered less than 2 years ago get 50% off any plan for their first 12 months after emailing proof of registration to ServiceM8 Support.
     lifecycle:
       status: active
       effective_from: 2026-10-23T12:36:51.849Z
@@ -67,7 +67,7 @@ offers:
           - criterion_id: cri_03
             kind: manual
             reason: external-verification
-            statement: Proof is sent to support@servicem8.com before or within 14 days of subscribing, and only one claim is allowed per business.
+            statement: Proof is sent to ServiceM8 Support before or within 14 days of subscribing, and only one claim is allowed per business.
     roles:
       terms_authority_entity_id: ent_01m5mc768t4vb5epxw94y5cbxd
       access_operator_entity_id: ent_01m5mc768t4vb5epxw94y5cbxd
@@ -75,7 +75,7 @@ offers:
       availability: public
       method: contact
       url: https://www.servicem8.com/new-business-special
-      instructions: Create or sign in to a ServiceM8 account, then email support@servicem8.com with the subject line 'New Business Special' and official proof that the business is less than 2 years old; ServiceM8 Support confirms by email and applies the special.
+      instructions: Create or sign in to a ServiceM8 account, then email ServiceM8 Support with the subject line 'New Business Special' and official proof that the business is less than 2 years old; ServiceM8 Support confirms by email and applies the special.
     terms_url: https://www.servicem8.com/new-business-special
     source_ids:
       - src_32acc17e331fb7466b73c4d5aacf2ab046a1a44c158cfbb1278b5ad700a1a521
